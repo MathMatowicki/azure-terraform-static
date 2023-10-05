@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "matdevstate"
-    storage_account_name = "matdevstate20440"
-    container_name       = "matdevstate"
+    resource_group_name  = "rg-matdev-static"
+    storage_account_name = "matdevstatic"
+    container_name       = "tfmatdevstatic"
     key                  = "terraform.tfstate"
   }
 }
