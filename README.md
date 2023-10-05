@@ -17,7 +17,7 @@ Follow these steps to deploy your static website to Azure:
 1. Clone this repository to your local machine:
 
   ```bash
-   git clone https://github.com/mathmatowicki/azure-terraformm-static.git
+   git clone https://github.com/mathmatowicki/azure-terraform-static.git
   ```
   ```bash
    cd azure-terraform-static
